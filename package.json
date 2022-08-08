@@ -3,7 +3,7 @@
   "displayName": "ez language support",
   "description": "support for ez programming language",
   "version": "0.0.1",
-  "icon": "ez.png",
+  "icon": "images/ez.png",
   "engines": {
     "vscode": "^1.70.0"
   },
