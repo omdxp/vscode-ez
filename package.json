@@ -1,0 +1,36 @@
+{
+  "name": "ez-language-support",
+  "displayName": "ez language support",
+  "description": "support for ez programming language",
+  "version": "0.0.1",
+  "icon": "ez.png",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ez",
+        "aliases": [
+          "ez",
+          "ez"
+        ],
+        "extensions": [
+          ".ez",
+          ".e"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ez",
+        "scopeName": "source.ez",
+        "path": "./syntaxes/ez.tmLanguage.json"
+      }
+    ]
+  }
+}
