@@ -27,7 +27,11 @@
           ".ez",
           ".e"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "images/ez.png",
+          "dark": "images/ez.png"
+        }
       }
     ],
     "grammars": [
