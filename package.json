@@ -4,6 +4,7 @@
   "description": "support for ez programming language",
   "version": "0.0.1",
   "icon": "images/ez.png",
+  "publisher": "OmarBelghaouti",
   "engines": {
     "vscode": "^1.70.0"
   },
